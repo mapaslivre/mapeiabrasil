@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+      initial-scale=1.0">
+    <title>Projeto Mapeia Brasil</title>
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #00695c;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+    header p {
+      margin: 0.5rem 0 0;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #00695c;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 0.3rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+    }
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+    th, td {
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      background: #e0f2f1;
+    }
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+    .apoiadores {
+      background: #e8f5e9;
+      padding: 2rem;
+      text-align: center;
+    }
+    .apoiadores h2 {
+      border: none;
+    }
+    .apoiadores ul {
+      list-style: none;
+      padding: 0;
+    }
+    .apoiadores li {
+      margin: 0.5rem 0;
+      font-weight: bold;
+    }
+    .contribuicao {
+      background: #fffde7;
+      border: 1px solid #fbc02d;
+      padding: 2rem;
+      margin: 2rem auto;
+      max-width: 900px;
+      border-radius: 8px;
+    }
+    .contribuicao h2 {
+      color: #f57f17;
+      border: none;
+    }
+    .pix {
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: #333;
+      margin: 1rem 0;
+    }
+    .qr {
+      margin-top: 1rem;
+      text-align: center;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+    }
+    footer {
+      background: #004d40;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    footer img {
+      width: 200px;
+      height: auto;
+      margin: 10px;
+    }
+  </style>
+  </head>
+  <body>
+    <header>
+      <table width="100%" cellspacing="2" cellpadding="2" border="1">
+        <tbody>
+          <tr>
+            <td valign="top">
+              <h1><img
+src="file:///home/raphael/%C3%81rea%20de%20trabalho/Projeto%20%20Mapeamento%20de%20RUAS%20OPENCAGE/logo-mapeia-brasil.png"
+                  alt="logo-mapeiabrasil" width="148" height="148"></h1>
+            </td>
+            <td valign="top">
+              <h1>📌 Projeto Mapeia Brasil</h1>
+              <p>Mapeamento e correção de Nomes de Ruas no Brasil 2025</p>
+              <p>#NomesdeRuaNoBrasil #2025<br>
+              </p>
+              <p><br>
+              </p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p><br>
+      </p>
+    </header>
+    <section>
+      <h2>🎯 Objetivo</h2>
+      <p>O&nbsp; projeto Mapeia Brasil tem como foco melhorar os dados
+        viários no OpenStreetMap (OSM) em cidades estratégicas do
+        Brasil, realizando:</p>
+      <ul>
+        <li>Mapeamento de nomes de ruas faltantes.</li>
+        <li>Correção de nomes de ruas já existentes.</li>
+        <li>Correção de classificação das vias (primária, secundária,
+          terciária, etc.).</li>
+        <li>Alinhamento geométrico das vias, quando necessário.</li>
+        <li>Verificação de vias residenciais que, na realidade, sejam
+          vias de serviço.</li>
+      </ul>
+      <p>Assim, garantiremos dados mais atualizados, precisos e
+        padronizados, fortalecendo a qualidade do OSM no Brasil.</p>
+    </section>
+    <section>
+      <h2>📚 Fonte dos Dados</h2>
+      <p>O projeto utilizará como base principal os dados oficiais do
+        IBGE (Instituto Brasileiro de Geografia e Estatística),
+        especialmente as informações do Censo 2022.</p>
+      <p>Esses dados são disponibilizados sob a licença <strong>ODbL
+          (Open Database License)</strong>, que permite seu uso,
+        adaptação e integração no OpenStreetMap.</p>
+    </section>
+    <section>
+      <h2>📊 Estimativa de Vias a Mapear</h2>
+      <table>
+        <tbody>
+          <tr>
+            <th>Cidade</th>
+            <th>Estimativa Inicial</th>
+            <th>-25% (a mapear)</th>
+          </tr>
+          <tr>
+            <td>Goiânia</td>
+            <td>3.000</td>
+            <td>2.250</td>
+          </tr>
+          <tr>
+            <td>Teresina</td>
+            <td>5.000</td>
+            <td>3.750</td>
+          </tr>
+          <tr>
+            <td>Rio Branco</td>
+            <td>2.000</td>
+            <td>1.500</td>
+          </tr>
+          <tr>
+            <td>Manaus</td>
+            <td>2.150</td>
+            <td>1.612</td>
+          </tr>
+          <tr>
+            <td>Salvador</td>
+            <td>3.850</td>
+            <td>2.887</td>
+          </tr>
+          <tr>
+            <td>João Pessoa</td>
+            <td>2.510</td>
+            <td>1.882</td>
+          </tr>
+          <tr>
+            <td>São Luís</td>
+            <td>3.900</td>
+            <td>2.925</td>
+          </tr>
+          <tr>
+            <td>Jaboatão dos Guararapes</td>
+            <td>2.300</td>
+            <td>1.725</td>
+          </tr>
+          <tr>
+            <td>Aracaju</td>
+            <td>1.280</td>
+            <td>960</td>
+          </tr>
+          <tr>
+            <td>Natal</td>
+            <td>1.540</td>
+            <td>1.155</td>
+          </tr>
+          <tr>
+            <td>Maceió</td>
+            <td>2.700</td>
+            <td>2.025</td>
+          </tr>
+          <tr>
+            <td>Belo Horizonte</td>
+            <td>1.750</td>
+            <td>1.312</td>
+          </tr>
+          <tr>
+            <td>São José do Rio Preto</td>
+            <td>1.700</td>
+            <td>1.275</td>
+          </tr>
+          <tr>
+            <th colspan="2">✅ Total estimado de vias a mapear:</th>
+            <th>25.259</th>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section>
+      <h2>🗓️ Cronograma</h2>
+      <ul>
+        <li><strong>Novembro 2025:</strong> Goiânia, Teresina, Rio
+          Branco</li>
+        <li><strong>Dezembro 2025:</strong> Manaus, Salvador, João
+          Pessoa</li>
+        <li><strong>Janeiro 2026:</strong> São Luís, Jaboatão dos
+          Guararapes, Aracaju</li>
+        <li><strong>Fevereiro 2026:</strong> Natal, Maceió, Belo
+          Horizonte, São José do Rio Preto</li>
+      </ul>
+    </section>
+    <section>
+      <h2>📢 Rastreio do Mapeamento</h2>
+      <p>Hashtags oficiais: <strong>#NomesdeRuaNoBrasil #2025</strong></p>
+      <p><em>"Mapeamento e correção de Nomes de Ruas no Brasil 2025
+          #NomesdeRuaNoBrasil #2025"</em></p>
+    </section>
+    <section class="contribuicao">
+      <h2>💳 Apoie o Projeto</h2>
+      <p>Quer contribuir para o <strong>Projeto Mapeia Brasil</strong>
+        mas não tem tempo de mapear? Apoie financeiramente com <strong>R$
+          20,00</strong>, <strong>R$ 40,00</strong> ou <strong>R$
+          50,00</strong>. Sua contribuição ajudará o mapa a ter novas
+        áreas com dados atualizados.</p>
+      <p class="pix">🔑 Chave Pix: <strong>22.253.128/0001-08</strong></p>
+      <div class="qr">
+        <p>Ou leia o QR Code:</p>
+        <img src="qrcode-pix.png" alt="QR Code Pix"> </div>
+      <p>📩 Quer sugerir áreas para mapeamento e atualização dos dados?
+        Envie um e-mail para: <a href="mailto:raphael@umbraosm.com.br">raphael@umbraosm.com.br</a></p>
+    </section>
+    <section class="apoiadores">
+      <h2>🤝 Apoiadores</h2>
+      <p>Lista de apoiadores do projeto:</p>
+      <ul>
+        <li>Nome do Apoiador 1</li>
+        <li>Nome do Apoiador 2</li>
+        <li>Nome do Apoiador 3</li>
+      </ul>
+    </section>
+    <footer>
+      <p>Patrocinadores do Projeto:</p>
+      <img src="logo-mapeia-brasil.png" alt="Logo patrocinador 1"
+        width="1024" height="1024"> <img
+src="file:///home/raphael/%C3%81rea%20de%20trabalho/Projeto%20%20Mapeamento%20de%20RUAS%20OPENCAGE/logo-patrocinador2.png"
+        alt="Logo patrocinador 2"> <img src="logo-patrocinador3.png"
+        alt="Logo patrocinador 3">&nbsp; <img
+        src="logo-mapeia-brasil.png" alt="Logo patrocinador 2"
+        width="1024" height="1024"> </footer>
+  </body>
+</html>
