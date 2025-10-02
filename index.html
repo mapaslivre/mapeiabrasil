@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,
-      initial-scale=1.0">
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0"
+      name="viewport">
     <title>Projeto Mapeia Brasil</title>
     <style>
     body {
@@ -110,86 +110,102 @@
       height: auto;
       margin: 10px;
     }
-  </style>
+  
+    .lang-switch {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+    .lang-switch img {
+        width: 30px;
+        margin-left: 5px;
+        cursor: pointer;
+    }
+    header { position: relative; }
+    </style>
   </head>
   <body link="#0000EE" vlink="#551A8B" text="#000000" bgcolor="#000000"
     alink="#EE0000">
-    <header>&nbsp;&nbsp;&nbsp; <img
-        src="logo_mapeia_brasil_fundo_branco.png" alt="logo" width="138"
+    <header>
+      <div class="lang-switch"><a href="index.html" title="Versão em
+          Português"><img alt="PT" src="https://flagcdn.com/w20/br.png"></a><a
+          href="index_en.html" title="English Version"><img alt="EN"
+            src="https://flagcdn.com/w20/us.png"></a></div>
+      &nbsp;&nbsp;&nbsp; <img alt="logo"
+        src="../logo_mapeia_brasil_fundo_branco.png" width="138"
         height="138">
       <h1>Projeto Mapeia Brasil</h1>
       <h1>Mapeamento e correção de Nomes de Ruas no Brasil 2025</h1>
       <br>
     </header>
     <section>
-      <h2 data-start="137" data-end="175">História do Projeto Mapeia
+      <h2 data-end="175" data-start="137">História do Projeto Mapeia
         Brasil</h2>
-      <p data-start="170" data-end="488">Há alguns meses venho
+      <p data-end="488" data-start="170">Há alguns meses venho
         pesquisando sobre a qualidade dos dados do OpenStreetMap no
         Brasil e percebi que muitas áreas ainda carecem de informações
         atualizadas. Diante disso, decidi criar um projeto voltado
         especialmente para regiões invisibilizadas, áreas periféricas e
         bairros com dados incompletos ou desatualizados.</p>
-      <p data-start="490" data-end="709">Assim nasceu o <strong
-          data-start="505" data-end="530">Projeto Mapeia Brasil</strong>,
-        que inicialmente contempla <strong data-start="559"
-          data-end="573">13 cidades</strong>. O foco principal é
+      <p data-end="709" data-start="490">Assim nasceu o <strong
+          data-end="530" data-start="505">Projeto Mapeia Brasil</strong>,
+        que inicialmente contempla <strong data-end="573"
+          data-start="559">13 cidades</strong>. O foco principal é
         atualizar e corrigir informações como nomes de ruas, além de
         incluir dados que ainda não estão presentes no mapa.<br>
       </p>
       <h2>Objetivo</h2>
-      <p data-start="154" data-end="365">O <strong data-start="156"
-          data-end="181">Projeto Mapeia Brasil</strong> tem como foco
-        aprimorar os <strong data-start="209" data-end="249">dados
+      <p data-end="365" data-start="154">O <strong data-end="181"
+          data-start="156">Projeto Mapeia Brasil</strong> tem como foco
+        aprimorar os <strong data-end="249" data-start="209">dados
           viários no OpenStreetMap (OSM)</strong> em cidades
         estratégicas do país, garantindo maior qualidade, precisão e
         padronização das informações disponíveis.</p>
-      <h3 data-start="367" data-end="390">Principais ações:</h3>
-      <ul data-start="391" data-end="702">
-        <li data-start="391" data-end="426">
-          <p data-start="393" data-end="426"><strong data-start="393"
-              data-end="424">Mapeamento de ruas sem nome</strong></p>
+      <h3 data-end="390" data-start="367">Principais ações:</h3>
+      <ul data-end="702" data-start="391">
+        <li data-end="426" data-start="391">
+          <p data-end="426" data-start="393"><strong data-end="424"
+              data-start="393">Mapeamento de ruas sem nome</strong></p>
         </li>
-        <li data-start="427" data-end="474">
-          <p data-start="429" data-end="474"><strong data-start="429"
-              data-end="472">Correção de nomes de ruas já existentes</strong></p>
+        <li data-end="474" data-start="427">
+          <p data-end="474" data-start="429"><strong data-end="472"
+              data-start="429">Correção de nomes de ruas já existentes</strong></p>
         </li>
-        <li data-start="475" data-end="554">
-          <p data-start="477" data-end="554"><strong data-start="477"
-              data-end="513">Ajuste na classificação das vias</strong>
+        <li data-end="554" data-start="475">
+          <p data-end="554" data-start="477"><strong data-end="513"
+              data-start="477">Ajuste na classificação das vias</strong>
             (primária, secundária, terciária etc.)</p>
         </li>
-        <li data-start="555" data-end="613">
-          <p data-start="557" data-end="613"><strong data-start="557"
-              data-end="592">Alinhamento geométrico das vias</strong>,
+        <li data-end="613" data-start="555">
+          <p data-end="613" data-start="557"><strong data-end="592"
+              data-start="557">Alinhamento geométrico das vias</strong>,
             quando necessário</p>
         </li>
-        <li data-start="614" data-end="702">
-          <p data-start="616" data-end="702"><strong data-start="616"
-              data-end="652">Verificação de vias residenciais</strong>
+        <li data-end="702" data-start="614">
+          <p data-end="702" data-start="616"><strong data-end="652"
+              data-start="616">Verificação de vias residenciais</strong>
             que, na prática, funcionam como vias de serviço</p>
         </li>
       </ul>
-      <p data-start="704" data-end="896">Com essas iniciativas, o
-        projeto busca oferecer <strong data-start="752" data-end="786">dados
-
+      <p data-end="896" data-start="704">Com essas iniciativas, o
+        projeto busca oferecer <strong data-end="786" data-start="752">dados
 
           atualizados e confiáveis</strong>, que possam ser utilizados
         por motoristas de aplicativos, empresas de entrega, moradores e
         órgãos públicos.</p>
-      <p data-start="898" data-end="1088">O <strong data-start="900"
-          data-end="917">OpenStreetMap</strong> é um mapa colaborativo e
-        de uso livre, aberto a qualquer pessoa que queira contribuir — e
-        o <strong data-start="1010" data-end="1027">Mapeia Brasil</strong>
+      <p data-end="1088" data-start="898">O <strong data-end="917"
+          data-start="900">OpenStreetMap</strong> é um mapa colaborativo
+        e de uso livre, aberto a qualquer pessoa que queira contribuir —
+        e o <strong data-end="1027" data-start="1010">Mapeia Brasil</strong>
         faz parte desse movimento de construção coletiva e cidadã.</p>
-      <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-      <div align="center"><img src="carros.png" alt="carros" width="610"
-          height="406"></div>
-      <p data-start="738" data-end="1002">O <strong data-start="740"
-          data-end="757">OpenStreetMap</strong> é um mapa colaborativo e
-        de uso livre, aberto a qualquer pessoa que queira contribuir. O
-        objetivo central do <strong data-start="867" data-end="892">Projeto
-
+      <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+      <div align="center"><img alt="carros"
+src="file:///home/raphael/%C3%81rea%20de%20trabalho/Projeto%20%20Mapeamento%20de%20RUAS%20OPENCAGE/carros.png"
+          width="610" height="406"></div>
+      <p data-end="1002" data-start="738">O <strong data-end="757"
+          data-start="740">OpenStreetMap</strong> é um mapa colaborativo
+        e de uso livre, aberto a qualquer pessoa que queira contribuir.
+        O objetivo central do <strong data-end="892" data-start="867">Projeto
 
 
 
@@ -198,69 +214,70 @@
           Mapeia Brasil</strong> é identificar e corrigir áreas que
         necessitam de atualização nos nomes de ruas e na classificação
         das vias.</p>
-      <p data-start="1004" data-end="1205">Essas melhorias beneficiarão
+      <p data-end="1205" data-start="1004">Essas melhorias beneficiarão
         diretamente moradores, pedestres, motoristas, entregadores e
         gestores públicos, proporcionando bairros e cidades com
         informações geográficas mais confiáveis e acessíveis.</p>
       <font color="#000000">
-        <meta http-equiv="content-type" content="text/html;
-          charset=UTF-8">
+        <meta content="text/html; charset=UTF-8"
+          http-equiv="content-type">
       </font><br>
-      <div align="center"><img src="pedestres.png" alt="pedestre"
+      <div align="center"><img alt="pedestre"
+src="file:///home/raphael/%C3%81rea%20de%20trabalho/Projeto%20%20Mapeamento%20de%20RUAS%20OPENCAGE/pedestres.png"
           width="586" height="390"><br>
       </div>
       <font color="#000000"> <br>
       </font>
-      <h2><strong data-start="940" data-end="955">Metodologia</strong></h2>
-      <p data-start="119" data-end="335">O <strong data-start="121"
-          data-end="146">Projeto Mapeia Brasil</strong> adota uma
+      <h2><strong data-end="955" data-start="940">Metodologia</strong></h2>
+      <p data-end="335" data-start="119">O <strong data-end="146"
+          data-start="121">Projeto Mapeia Brasil</strong> adota uma
         metodologia colaborativa e sistemática, baseada em ferramentas
         livres e abertas, com o objetivo de garantir a qualidade e a
         confiabilidade dos dados inseridos no OpenStreetMap.</p>
-      <h3 data-start="337" data-end="365">Ferramentas utilizadas:</h3>
-      <ul data-start="366" data-end="809">
-        <li data-start="366" data-end="430">
-          <p data-start="368" data-end="430"><strong data-start="368"
-              data-end="376">Editor JOSM</strong> – Editor avançado para
-            edição de dados geográficos.</p>
+      <h3 data-end="365" data-start="337">Ferramentas utilizadas:</h3>
+      <ul data-end="809" data-start="366">
+        <li data-end="430" data-start="366">
+          <p data-end="430" data-start="368"><strong data-end="376"
+              data-start="368">Editor JOSM</strong> – Editor avançado
+            para edição de dados geográficos.</p>
         </li>
-        <li data-start="692" data-end="809">
-          <p data-start="694" data-end="809"><strong data-start="694"
-              data-end="711">Dados do IBGE</strong> – Fonte de
+        <li data-end="809" data-start="692">
+          <p data-end="809" data-start="694"><strong data-end="711"
+              data-start="694">Dados do IBGE</strong> – Fonte de
             referência oficial para nomes de ruas, limites
             administrativos e outras informações.</p>
         </li>
       </ul>
-      <h3 data-start="811" data-end="835">Etapas do trabalho:</h3>
-      <ol data-start="836" data-end="1285">
-        <li data-start="836" data-end="953">
-          <p data-start="839" data-end="953"><strong data-start="839"
-              data-end="849">Coleta</strong> – Levantamento de
+      <h3 data-end="835" data-start="811">Etapas do trabalho:</h3>
+      <ol data-end="1285" data-start="836">
+        <li data-end="953" data-start="836">
+          <p data-end="953" data-start="839"><strong data-end="849"
+              data-start="839">Coleta</strong> – Levantamento de
             informações por meio de bases oficiais (IBGE, dados
             públicos) e observações locais.</p>
         </li>
-        <li data-start="954" data-end="1058">
-          <p data-start="957" data-end="1058"><strong data-start="957"
-              data-end="972">Verificação</strong> – Comparação entre as
-            informações coletadas e os dados existentes no
+        <li data-end="1058" data-start="954">
+          <p data-end="1058" data-start="957"><strong data-end="972"
+              data-start="957">Verificação</strong> – Comparação entre
+            as informações coletadas e os dados existentes no
             OpenStreetMap.</p>
         </li>
-        <li data-start="1059" data-end="1155">
-          <p data-start="1062" data-end="1155"><strong data-start="1062"
-              data-end="1072">Edição</strong> – Atualização, correção e
-            inclusão de dados no mapa utilizando Editor JOSM.<br>
+        <li data-end="1155" data-start="1059">
+          <p data-end="1155" data-start="1062"><strong data-end="1072"
+              data-start="1062">Edição</strong> – Atualização, correção
+            e inclusão de dados no mapa utilizando Editor JOSM.<br>
           </p>
         </li>
-        <li data-start="1156" data-end="1285">
-          <p data-start="1159" data-end="1285"><strong data-start="1159"
-              data-end="1172">Validação</strong> – Revisão das edições
+        <li data-end="1285" data-start="1156">
+          <p data-end="1285" data-start="1159"><strong data-end="1172"
+              data-start="1159">Validação</strong> – Revisão das edições
             com apoio de ferramentas como OSMCha, garantindo
             consistência, padronização e qualidade.</p>
         </li>
       </ol>
-      <p data-start="1287" data-end="1455">Essa metodologia assegura que
-        o processo de mapeamento seja <strong data-start="1347"
-          data-end="1389">transparente, colaborativo e confiável</strong>,
+      <p data-end="1455" data-start="1287">Essa metodologia assegura que
+        o processo de mapeamento seja <strong data-end="1389"
+          data-start="1347">transparente, colaborativo e confiável</strong>,
         contribuindo para o fortalecimento do OpenStreetMap no Brasil.</p>
     </section>
     <section>
@@ -276,15 +293,16 @@
           permite seu uso, adaptação e integração no OpenStreetMap.<br>
         </font></p>
       <br>
-      <div align="center"><img src="camadaibge-nomesderua.png"
-          alt="camada-nomes-rua" width="767" height="471"><br>
+      <div align="center"><img alt="camada-nomes-rua"
+src="file:///home/raphael/%C3%81rea%20de%20trabalho/Projeto%20%20Mapeamento%20de%20RUAS%20OPENCAGE/camada%20de%20nomes%20de%20ruas.png"
+          width="767" height="471"><br>
       </div>
       <br>
       <br>
       <br>
-      <div align="center"><img
-          src="dados-nomesde%20ruasfundoopenstreetmap.png"
-          alt="camada-nomes-de-rua" width="786" height="477"><br>
+      <div align="center"><img alt="camada-nomes-de-rua"
+src="file:///home/raphael/%C3%81rea%20de%20trabalho/Projeto%20%20Mapeamento%20de%20RUAS%20OPENCAGE/camadaibge-nomesderua.png"
+          width="786" height="477"><br>
       </div>
     </section>
     <section>
@@ -373,86 +391,86 @@
     <section>
       <h2>Cronograma <font size="+2"><b>do Projeto Mapeia Brasil </b></font>
       </h2>
-      <p data-start="135" data-end="160"><strong data-start="138"
-          data-end="158"></strong></p>
-      <p data-start="135" data-end="160"><strong data-start="138"
-          data-end="158"><br>
+      <p data-end="160" data-start="135"><strong data-end="158"
+          data-start="138"></strong></p>
+      <p data-end="160" data-start="135"><strong data-end="158"
+          data-start="138"><br>
           Novembro de 2025</strong></p>
-      <ul data-start="161" data-end="200">
-        <li data-start="161" data-end="172">
-          <p data-start="163" data-end="172">Goiânia</p>
+      <ul data-end="200" data-start="161">
+        <li data-end="172" data-start="161">
+          <p data-end="172" data-start="163">Goiânia</p>
         </li>
-        <li data-start="173" data-end="185">
-          <p data-start="175" data-end="185">Teresina</p>
+        <li data-end="185" data-start="173">
+          <p data-end="185" data-start="175">Teresina</p>
         </li>
-        <li data-start="186" data-end="200">
-          <p data-start="188" data-end="200">Rio Branco</p>
-        </li>
-      </ul>
-      <p data-start="202" data-end="227"><strong data-start="205"
-          data-end="225">Dezembro de 2025</strong></p>
-      <ul data-start="228" data-end="267">
-        <li data-start="228" data-end="238">
-          <p data-start="230" data-end="238">Manaus</p>
-        </li>
-        <li data-start="239" data-end="251">
-          <p data-start="241" data-end="251">Salvador</p>
-        </li>
-        <li data-start="252" data-end="267">
-          <p data-start="254" data-end="267">João Pessoa</p>
+        <li data-end="200" data-start="186">
+          <p data-end="200" data-start="188">Rio Branco</p>
         </li>
       </ul>
-      <p data-start="269" data-end="293">&nbsp;<strong data-start="272"
-          data-end="291">Janeiro de 2026</strong></p>
-      <ul data-start="294" data-end="346">
-        <li data-start="294" data-end="306">
-          <p data-start="296" data-end="306">São Luís</p>
+      <p data-end="227" data-start="202"><strong data-end="225"
+          data-start="205">Dezembro de 2025</strong></p>
+      <ul data-end="267" data-start="228">
+        <li data-end="238" data-start="228">
+          <p data-end="238" data-start="230">Manaus</p>
         </li>
-        <li data-start="307" data-end="334">
-          <p data-start="309" data-end="334">Jaboatão dos Guararapes</p>
+        <li data-end="251" data-start="239">
+          <p data-end="251" data-start="241">Salvador</p>
         </li>
-        <li data-start="335" data-end="346">
-          <p data-start="337" data-end="346">Aracaju</p>
-        </li>
-      </ul>
-      <p data-start="348" data-end="374">&nbsp;<strong data-start="351"
-          data-end="372">Fevereiro de 2026</strong></p>
-      <ul data-start="375" data-end="440">
-        <li data-start="375" data-end="384">
-          <p data-start="377" data-end="384">Natal</p>
-        </li>
-        <li data-start="385" data-end="395">
-          <p data-start="387" data-end="395">Maceió</p>
-        </li>
-        <li data-start="396" data-end="414">
-          <p data-start="398" data-end="414">Belo Horizonte</p>
-        </li>
-        <li data-start="415" data-end="440">
-          <p data-start="417" data-end="440">São José do Rio Preto</p>
+        <li data-end="267" data-start="252">
+          <p data-end="267" data-start="254">João Pessoa</p>
         </li>
       </ul>
-      <strong data-start="138" data-end="158">
-        <meta http-equiv="content-type" content="text/html;
-          charset=UTF-8">
+      <p data-end="293" data-start="269">&nbsp;<strong data-end="291"
+          data-start="272">Janeiro de 2026</strong></p>
+      <ul data-end="346" data-start="294">
+        <li data-end="306" data-start="294">
+          <p data-end="306" data-start="296">São Luís</p>
+        </li>
+        <li data-end="334" data-start="307">
+          <p data-end="334" data-start="309">Jaboatão dos Guararapes</p>
+        </li>
+        <li data-end="346" data-start="335">
+          <p data-end="346" data-start="337">Aracaju</p>
+        </li>
+      </ul>
+      <p data-end="374" data-start="348">&nbsp;<strong data-end="372"
+          data-start="351">Fevereiro de 2026</strong></p>
+      <ul data-end="440" data-start="375">
+        <li data-end="384" data-start="375">
+          <p data-end="384" data-start="377">Natal</p>
+        </li>
+        <li data-end="395" data-start="385">
+          <p data-end="395" data-start="387">Maceió</p>
+        </li>
+        <li data-end="414" data-start="396">
+          <p data-end="414" data-start="398">Belo Horizonte</p>
+        </li>
+        <li data-end="440" data-start="415">
+          <p data-end="440" data-start="417">São José do Rio Preto</p>
+        </li>
+      </ul>
+      <strong data-end="158" data-start="138">
+        <meta content="text/html; charset=UTF-8"
+          http-equiv="content-type">
       </strong>
       <h2>Rastreio do Mapeamento</h2>
       <p>Hashtags oficiais: <strong>#NomesdeRuaNoBrasil #2025</strong></p>
       <p><em>"Mapeamento e correção de Nomes de Ruas no Brasil 2025
           #NomesdeRuaNoBrasil #2025"<br>
         </em></p>
-      <h2 data-start="2138" data-end="2176"><strong data-start="2138"
-          data-end="2174">Encerramento e Resultados Finais</strong></h2>
-      <ul data-start="2181" data-end="2316">
-        <li data-start="2181" data-end="2218">
-          <p data-start="2183" data-end="2218">Relatório final com
+      <h2 data-end="2176" data-start="2138"><strong data-end="2174"
+          data-start="2138">Encerramento e Resultados Finais</strong></h2>
+      <ul data-end="2316" data-start="2181">
+        <li data-end="2218" data-start="2181">
+          <p data-end="2218" data-start="2183">Relatório final com
             estatísticas.</p>
         </li>
-        <li data-start="2223" data-end="2261">
-          <p data-start="2225" data-end="2261">Publicação em plataformas
+        <li data-end="2261" data-start="2223">
+          <p data-end="2261" data-start="2225">Publicação em plataformas
             abertas.</p>
         </li>
-        <li data-start="2266" data-end="2316">
-          <p data-start="2268" data-end="2316">Próximos passos
+        <li data-end="2316" data-start="2266">
+          <p data-end="2316" data-start="2268">Próximos passos
             (continuidade, novas cidades).</p>
         </li>
       </ul>
@@ -473,8 +491,12 @@
     <footer>
       <h2><font color="#ffffff">Apoio:</font></h2>
       &nbsp;&nbsp;&nbsp; <a href="https://opencagedata.com/"><img
+          alt="Logo patrocinador 1"
 src="file:///home/raphael/%C3%81rea%20de%20trabalho/Projeto%20%20Mapeamento%20de%20RUAS%20OPENCAGE/opencage-logo.png"
-          alt="Logo patrocinador 1" width="1931" border="0" height="960"></a>
+          width="1931" border="0" height="960"></a><a
+        href="https://opencagedata.com/"><img
+          src="../openstreetmap.jpeg" alt="carro" width="125" border="0"
+          height="103"></a>
     </footer>
   </body>
 </html>
